@@ -1,0 +1,96 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4; /* Change background color here */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+header {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 20px;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+nav ul li a:hover {
+  color: #ffd700; /* Change color on hover */
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  color: #333;
+}
+
+.facility-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.facility {
+  flex: 1 1 300px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+.facility:hover {
+  transform: translateY(-5px); /* Move up on hover */
+}
+
+.facility img {
+  max-width: 100%;
+  border-radius: 5px;
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.facility:hover img {
+  opacity: 0.8; /* Reduce opacity on hover */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+footer:hover {
+  background-color: #555; /* Change background color on hover */
+}
